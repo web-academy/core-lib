@@ -16,3 +16,13 @@ let chunks = ArrayHelper.chunk(arr, 3);
 // ==> chunks = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h']];
 
 ```
+
+
+#### ArrayHelper.randomItem(arr: any[]): any
+
+Returns a random item from given array
+
+```js
+let arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+let item = ArrayHelper.randomItem(arr);
+```
