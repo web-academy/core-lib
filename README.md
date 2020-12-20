@@ -26,3 +26,13 @@ Returns a random item from given array
 let arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 let item = ArrayHelper.randomItem(arr);
 ```
+
+
+### WaitHelper
+
+#### WaitHelper.wait(ms: number): Promise
+
+Waits for the given amount of ms and the resolves the promise
+```js
+await WaitHelper.wait(500); // Waits for 500ms
+```
